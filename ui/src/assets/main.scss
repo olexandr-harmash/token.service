@@ -1,0 +1,30 @@
+$btn_col: rgb(255, 209, 41);
+$btn_hover_col: rgb(255, 220, 94);
+@mixin btn-text {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT";
+}
+
+@mixin btn-hover {
+    color: black;
+    background-color: $btn_hover_col;
+}
+
+@mixin btn-sz {
+    padding: 1em 2.4em;
+    border-radius: 0.6em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.block {
+    width: 50%;
+    margin-left: 25%;
+}
+
+h3 {
+    color: #476582
+}
